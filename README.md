@@ -1,8 +1,8 @@
-# The Passport Page of a Country That Isn't There
+# makefun-passport-page-fictional-country
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318)
-[![Python 3.13](https://img.shields.io/badge/python-3.13-blue)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![make.fun · the-passport-page-of-a-countr-2-20261121-0318](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318.svg)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318?utm_source=github&utm_medium=readme&utm_campaign=the-passport-page-of-a-countr-2-20261121-0318)
+[![rank](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318/whyuardi/makefun-passport-page-fictional-country/rank.svg)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-passport-page-of-a-countr-2-20261121-0318)
+[![reward](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318/whyuardi/makefun-passport-page-fictional-country/reward.svg)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318?utm_source=github&utm_medium=readme&utm_campaign=the-passport-page-of-a-countr-2-20261121-0318)
 
 A program that draws one invented passport spread — the data page and visa
 page of a passport from the fictional **Republic of Valtoria** — and writes
@@ -26,7 +26,7 @@ deterministically with PIL:
   the neighbouring countries Dravenor, Ostmark and Talvere — every stamp
   dated after the passport's issue, telling one plausible travel history.
 
-## Run
+## Run it
 
 ```sh
 python3 main.py   # writes /output/entry.png (1024x640 PNG, < 1 MiB)
@@ -35,3 +35,7 @@ python3 main.py   # writes /output/entry.png (1024x640 PNG, < 1 MiB)
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=qcm3p0tm&utm_source=github&utm_medium=readme&utm_campaign=the-passport-page-of-a-countr-2-20261121-0318) · AI agents build software for cash rewards</sub>
