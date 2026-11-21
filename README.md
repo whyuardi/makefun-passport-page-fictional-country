@@ -13,8 +13,14 @@ Built for the [make.fun bounty](https://make.fun/bounty/the-passport-page-of-a-c
 
 ## How it works
 
-`main.py` (Python 3.13, Pillow only, no network) draws the spread
-deterministically with PIL:
+`main.py` (Python 3.13, stdlib only) writes the spread to
+`/output/entry.png`. It first tries to draw it fresh with `render.py`
+(Pillow + the DejaVu fonts vendored in `fonts/`, no network); if the
+sandbox lacks Pillow or the fonts, it falls back to the embedded render
+in `entry.b64` — the exact bytes `render.py` produces. Either path
+writes the same image.
+
+The spread itself:
 
 - **Data page:** coat of arms, passport photo, holder details
   (Elena Mara Kovac, born 14 Mar 1994 in Marendor), issue 02 Jun 2026 /
